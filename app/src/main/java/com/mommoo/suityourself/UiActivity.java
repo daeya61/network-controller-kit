@@ -68,7 +68,6 @@ public class UiActivity extends AppCompatActivity implements View.OnClickListene
     private GridView gridView;
     private TextView textArea;
     private ArrayList<String> messages;
-    private InputStream inputStream;
     private OutputStream outputStream;
     private ArrayList<FunctionInfo> functionInfo = new ArrayList<>();
     private boolean isSoftKey,isTouchPad,isAirMouse;
@@ -89,7 +88,7 @@ public class UiActivity extends AppCompatActivity implements View.OnClickListene
 //                    inputStream = WifiActivity.socket.getInputStream();
 //                    outputStream = WifiActivity.socket.getOutputStream();
                 } else if (activityName.equals("Blue")) {
-                    inputStream = BluetoothActivity.socket.getInputStream();
+                    //inputStream = BluetoothActivity.socket.getInputStream();
                     outputStream = BluetoothActivity.socket.getOutputStream();
                 }
             }
