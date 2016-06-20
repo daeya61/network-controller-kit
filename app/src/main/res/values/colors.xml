@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#c2185b</color>
+    <color name="colorPrimary">#e91e63</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primaryText">#cc000000</color>
+    <color name="secondaryText">#8a000000</color>
+    <color name="hintText">#61000000</color>
+    <color name="dividers">#1f000000</color>
+
+    <color name="bluetoothColorPrimary">#3F51B5</color>
+    <color name="bluetoothColorPrimaryDark">#303F9F</color>
+    <color name="bluetoothColorRipple">#5a3f51b5</color>
+
+    <color name="wifiColorPrimary">#388E3c</color>
+    <color name="wifiColorPrimaryDark">#4CAF50</color>
+    <color name="wifiColorRipple">#5A388E3C</color>
+
+    <string-array name="colors">
+        <item>-22380</item>
+        <item>-276397</item>
+        <item>-7415852</item>
+        <item>-7092764</item>
+        <item>-5727777</item>
+        <item>-557956</item>
+        <item>-3810476</item>
+        <item>-11807780</item>
+        <item>-8855553</item>
+        <item>-8606985</item>
+        <item>-1024932</item>
+        <item>-284572</item>
+        <item>-12469574</item>
+        <item>-11486234</item>
+        <item>-8287267</item>
+        <item>-881217</item>
+        <item>-873753</item>
+        <item>-7522646</item>
+        <item>-10840352</item>
+        <item>-8878691</item>
+    </string-array>
+</resources>
