@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/textView"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="59dp" />
+        <View
+            android:background="#61797979"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>
